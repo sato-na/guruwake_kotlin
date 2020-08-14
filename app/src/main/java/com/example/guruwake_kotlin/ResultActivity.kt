@@ -43,6 +43,7 @@ class ResultActivity : AppCompatActivity() {
         // タイトルボタンの処理
         title_btn.setOnClickListener {
 
+            // 画面遷移
             val intent = Intent(application, MainActivity::class.java)
             startActivity(intent)
         }

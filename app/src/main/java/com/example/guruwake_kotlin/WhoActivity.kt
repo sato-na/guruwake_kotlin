@@ -30,7 +30,7 @@ class WhoActivity : AppCompatActivity() {
         add_btn.setOnClickListener {
 
 
-            addMember(memberL)
+            addMember()
         }
 
 
@@ -49,7 +49,7 @@ class WhoActivity : AppCompatActivity() {
 
 
     // 追加ボタンの処理内容
-    fun addMember(memberL: ArrayList<String>) {
+    fun addMember() {
 
         memberL.add(member_et.text.toString())
         member_et?.text?.clear()
