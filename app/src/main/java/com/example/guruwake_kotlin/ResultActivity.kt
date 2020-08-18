@@ -20,7 +20,7 @@ class ResultActivity : AppCompatActivity() {
 
         // グループ分けをして表示する
         var rTxt = ""
-        val groupNumI : Int = Integer.parseInt(groupNum)
+        val groupNumI : Int = groupNum.toInt()
         val memberNum = memberL.size
         memberL.shuffle(Random())
         for (n in 1..groupNumI) {
